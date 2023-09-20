@@ -1,22 +1,24 @@
 
 import Navbar from './Components/Navbar';
+import Home from './Components/Home';
+import { BrowserRouter } from 'react-router-dom';
+import About from './Components/About';
+import { Routes, Route } from 'react-router-dom';
+import Myagency from './Components/Myagency'
+import Spinner from './Components/Spinner';
+import AgencyList from './Components/AgencyList';
 function App() {
   return (
-    <div className="App">
-      <Navbar></Navbar>
-      {
-        // <BrowserRouter>
-        // <Routes>
-        //   <Route path="/" element={<Layout />}>
-        //     <Route index element={<Home />} />
-        //     <Route path="blogs" element={<Blogs />} />
-        //     <Route path="contact" element={<Contact />} />
-        //     <Route path="*" element={<NoPage />} />
-        //   </Route>
-        // </Routes> 
-        // </BrowserRouter>
-      }
-    </div>
+    <>
+      <Navbar/>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Myagency" element={<Myagency/>} />
+        <Route path="/Spinner" element={<Spinner/>} />
+        <Route path="/AgencyList" element={<AgencyList/>} />
+      </Routes>
+    </>
   );
 }
 
