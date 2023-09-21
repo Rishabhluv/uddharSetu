@@ -1,6 +1,7 @@
 import React from "react";
 import Alert from "./Alert";
 import AgencyList from "./AgencyList";
+import About from "./About";
 export default function Home() {
   return (
     <div>
@@ -24,12 +25,18 @@ export default function Home() {
       </div>
       <div className="flex justify-evenly text-center">
         <div className="w-1/4 h-full m-10">
-          <Alert/>
+          <Alert />
         </div>
         <div className="w-3/4">
           <AgencyList />
         </div>
       </div>
+      <div className="flex items-start">
+      <About/>
+    
+      </div>
+    
+
     </div>
   );
 }

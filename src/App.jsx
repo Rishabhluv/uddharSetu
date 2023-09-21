@@ -6,6 +6,7 @@ import { Routes, Route } from "react-router-dom";
 import Myagency from "./Components/Myagency";
 import Spinner from "./Components/Spinner";
 import AgencyList from "./Components/AgencyList";
+import Footer from "./Components/Footer";
 function App() {
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
           <Route path="/AgencyList" element={<AgencyList />} />
         </Routes>
       </Navbar>
+      <Footer/>
     </>
   );
 }
