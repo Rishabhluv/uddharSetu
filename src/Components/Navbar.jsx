@@ -13,9 +13,9 @@ export default function Navbar({ children }) {
           <span className="mt-1"> Uddhar Setu</span>
         </div>
         <div className="flex justify-evenly grow">
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/About">About</NavLink>
-          <NavLink to="/Myagency">My Agency</NavLink>
+          <NavLink to="/" className="transform hover:scale-105 ease-in-out duration-50">Home</NavLink>
+          <NavLink to="/About" className="transform hover:scale-105 ease-in-out duration-50">About</NavLink>
+          <NavLink to="/Myagency" className="transform hover:scale-105 ease-in-out duration-50">My Agency</NavLink>
         </div>
       </div>
       <div className="mt-16">{children}</div>
