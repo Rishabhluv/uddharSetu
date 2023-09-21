@@ -54,9 +54,15 @@ export default function Myagency() {
               <span class="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
               <span class="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black"></span>
               <span class="relative text-black group-hover:text-white">
-              Responses
+                Responses
               </span>
             </a>
+            <button
+              type="button"
+              class="text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+            >
+              Purple
+            </button>
           </div>
         </div>
       </div>
