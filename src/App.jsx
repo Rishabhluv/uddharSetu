@@ -5,7 +5,7 @@ import Myagency from "./Components/Myagency";
 import Spinner from "./Components/Spinner";
 import AgencyList from "./Components/AgencyList";
 import Footer from "./Components/Footer";
-import Alert from "./Components/AlertCard";
+import Alert from "./Components/Alert";
 function App() {
   return (
     <>
@@ -13,7 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Myagency" element={<Myagency />} />
-          <Route path="/Alert" element={<Alert />} />
+          <Route path="/alert" element={<Alert />} />
           <Route path="/Spinner" element={<Spinner />} />
           <Route path="/AgencyList" element={<AgencyList />} />
         </Routes>

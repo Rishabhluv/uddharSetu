@@ -2,6 +2,7 @@ import React from 'react';
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { GoAlertFill } from "react-icons/go";
 import { TiTick } from "react-icons/ti";
+import { Link, NavLink } from "react-router-dom";
 const Alert = () => {
     return (
         <aside id="default-sidebar" className="z-40 h-screen shadow-lg rounded-lg" aria-label="Sidebar">
@@ -10,7 +11,7 @@ const Alert = () => {
             <div className="h-full px-3 py-4 overflow-y-auto">
                 <ul className="space-y-4 font-medium">
                     <li>
-                        <a href="#" className="flex justify-between items-center p-2 rounded-lg group shadow-sm hover:shadow-md">
+                        <a href="/alert" className="flex justify-between items-center p-2 rounded-lg group shadow-sm hover:shadow-md">
                             <span className="ml-3 text-left">
                                 <div>Urgent Medical Assistance Needed</div>
                                 <div className='text-sm text-gray-500'>Created an hour ago</div>
@@ -20,7 +21,7 @@ const Alert = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="#" className="flex justify-between items-center p-2 rounded-lg group shadow-sm hover:shadow-md">
+                        <a href="/alert" className="flex justify-between items-center p-2 rounded-lg group shadow-sm hover:shadow-md">
                             <span className="ml-3 text-left">
                                 <div>Emergency Shelter Required</div>
                                 <div className='text-sm text-gray-500'>Created 5 hours ago</div>
@@ -30,7 +31,7 @@ const Alert = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="#" className="flex justify-between items-center p-2 rounded-lg group shadow-sm hover:shadow-md">
+                        <a href="/alert" className="flex justify-between items-center p-2 rounded-lg group shadow-sm hover:shadow-md">
                             <span className="ml-3 text-left">
                                 <div>Fire Evacuation</div>
                                 <div className='text-sm text-gray-500'>Created 12 hours ago</div>
