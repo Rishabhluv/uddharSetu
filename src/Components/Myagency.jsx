@@ -12,7 +12,7 @@ export default function Myagency() {
         </div>
         <div className="">
           <img
-            className=" mt-[-8rem] mr-[45rem] w-[15rem] h-[15rem] rounded-full border border-4 border-white"
+            className=" mt-[-8rem] mr-[45rem] w-[15rem] h-[15rem] rounded-full border-4 border-white"
             src="./herooo.png"
           ></img>
         </div>
@@ -57,12 +57,6 @@ export default function Myagency() {
                 Responses
               </span>
             </a>
-            <button
-              type="button"
-              class="text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
-            >
-              Purple
-            </button>
           </div>
         </div>
       </div>

@@ -94,8 +94,8 @@ export default function About() {
           </div>
         </div>
       </div>
-      <img src="https://cdn.narendramodi.in/cmsuploads/0.52965600_1642441185_636x400-text-of-prime-minister-narendra-modi-s-state-of-the-world-address-at-world-economic-forum-s-davos-summit.jpg"
-        className="rounded-xl object-contain mt-5" alt="" />
+      <img src="/map.jpeg"
+        className="rounded-xl object-contain m-5 w-1/2" alt="" />
     </div>
 
 
