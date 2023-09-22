@@ -1,5 +1,5 @@
 import React from "react";
-import Alert from "./Alert";
+import Alert from "./AlertCard";
 import AgencyList from "./AgencyList";
 import About from "./About";
 import { useEffect } from "react";
