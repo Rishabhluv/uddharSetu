@@ -5,7 +5,7 @@ import { TiTick } from "react-icons/ti";
 import { Link, NavLink } from "react-router-dom";
 const Alert = () => {
     return (
-        <aside id="default-sidebar" className="z-40 h-screen shadow-lg rounded-lg" aria-label="Sidebar">
+        <aside id="default-sidebar" className="z-40 h-screen shadow-lg rounded-lg p-1" aria-label="Sidebar">
             <h1 className='text-xl font-bold'>Alerts</h1>
             <h1 className='mt-2 text-2xl font-bold flex justify-center items-center'><FaMapMarkerAlt /><span className='ml-2'>Kanpur, Uttar Pradesh</span></h1>
             <div className="h-full px-3 py-4 overflow-y-auto">

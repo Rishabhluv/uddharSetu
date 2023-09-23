@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
     return (
 
-        <footer class="rounded-lg m-4">
+        <footer class="rounded-lg mt-4 mx-4">
             <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
                 <span class="text-sm sm:text-center">© 2023 <a href="https://flowbite.com/" class="hover:underline">Uddhar Setu
                 </a>. All Rights Reserved.

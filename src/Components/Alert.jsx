@@ -83,7 +83,7 @@ const Alert = () => {
           <div className='flex gap-10'>
             {/* chatbox */}
             {/* heading */}
-            <div class="w-2/6 flex flex-col border shadow-md bg-white h-full">
+            <div class="w-1/3 flex flex-col border shadow-md bg-white h-full">
               <div class="flex items-center justify-between border-b p-2">
                 <div class="flex items-center">
                   <div class="pl-2">
@@ -152,7 +152,7 @@ const Alert = () => {
 
 
             {/* agencylist */}
-            <div class="w-full max-w-md p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 ">
+            <div class="w-1/3 max-w-md p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 ">
               <div class="flex items-center justify-between mb-4">
                 <h5 class="text-xl font-bold leading-none text-gray-900 ">Collaborating Agencies</h5>
                 {/* <a href="#" class="text-sm font-medium text-blue-600 hover:underline ">
@@ -203,7 +203,7 @@ const Alert = () => {
             {/* status */}
 
 
-            <div class="w-full max-w-md p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 ">
+            <div class="w-1/3 max-w-md p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 ">
               <div class="flex items-center justify-between mb-4">
                 <h5 class="text-xl font-bold leading-none text-gray-900 ">Status</h5>
               </div>

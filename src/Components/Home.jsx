@@ -34,10 +34,10 @@ export default function Home() {
 
       </div>
       <div className="flex justify-evenly text-center">
-        <div className="w-1/4 h-full m-10">
+        <div className="w-[27%] h-full m-10">
           <Alert />
         </div>
-        <div className="w-3/4">
+        <div className="w-[74%]">
           <AgencyList />
         </div>
       </div>
